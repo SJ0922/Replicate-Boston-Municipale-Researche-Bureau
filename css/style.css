@@ -1,0 +1,118 @@
+.img {
+    width: 200px;   /* decrease size */
+    float: left;    /* push image to the left */
+    margin-right: 15px;  /* space to the right */
+    border-radius: 5px;   /* optional */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.top-nav {
+    background: #0b68b6;
+    padding: 15px 0;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.top-nav li {
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    background: #f4f4f4;
+}
+
+.sidebar {
+    width: 23%;
+    background: white;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #0b68b6;
+    font-weight: bold;
+}
+
+.news-item p {
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.content {
+    width: 55%;
+    background: white;
+    margin: 0 25px;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.city-img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.right-side {
+    width: 22%;
+    padding: 20px;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.label {
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.search-btn {
+    width: 45px;
+    height: 35px;
+    border: 1px solid #aaa;
+    background: #ddd;
+    font-size: 16px;
+    cursor: pointer;
+}
